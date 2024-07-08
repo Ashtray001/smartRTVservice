@@ -22,3 +22,104 @@
     margin: 20px 0;
     text-align: center;
 }
+
+.header__container {
+    max-width: 1200px;
+    margin: 0 auto; /* Це центрує контейнер по горизонталі */
+    display: grid;
+    grid-template-columns: auto 1fr auto auto; /* Один рядок з колонками: логотип, пошук, телефон, Viber */
+    gap: 10px; /* Проміжок між елементами */
+    align-items: center; /* Вирівнює елементи по вертикалі по центру */
+    padding: 10px; /* Падінг для контейнера */
+  }
+
+  .header__container img {
+    max-width: 100%; /* Зображення не перевищує розміри батьківського контейнера */
+    height: auto; /* Адаптивна висота */
+  }
+
+  .header__container form {
+    display: flex; /* Форма відображається як блок із гнучким контейнером */
+    align-items: center; /* Вирівнює елементи по вертикалі по центру */
+  }
+
+  .header__container input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Ширина вводу розширюється */
+  }
+
+  .header__container button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .header__container a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .header__container a:hover {
+    text-decoration: underline;
+  }
+
+  .header__background {
+    background-color: #353e48;
+  }
+  /*vupaday4e menu*/
+
+  /* Стилі для основного контейнера випадаючого меню */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Стилі для кнопки, яка викликає випадаюче меню */
+  .dropbtn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Стилі для випадаючого вмісту */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Стилі для посилань у випадаючому вмісті */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Показати випадаючий вміст, коли кнопка натиснута (js) */
+  .show {
+    display: block;
+  }
