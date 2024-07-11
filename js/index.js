@@ -1,5 +1,6 @@
 function init() {
     import('./dropdown.js');
+    import('./slider.js');
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
