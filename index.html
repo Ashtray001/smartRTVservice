@@ -10,6 +10,9 @@
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
+    <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet">
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
@@ -20,13 +23,16 @@
       data-hx-get="index.header.partial.html"
     ></header>
     <main>
-      <header
+      <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="index.category.partial.html"
-      ></header>
+      ></section>
     </main>
     <footer></footer>
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
     <script src="js/index.js"></script>
   </body>
 </html>

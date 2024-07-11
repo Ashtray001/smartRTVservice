@@ -1,3 +1,3 @@
-const mySlider = new Splide('#mySlider')
+const mySlider = new Splide('.splide')
 
 mySlider.mount()
