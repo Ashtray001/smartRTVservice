@@ -84,21 +84,23 @@
 }
 
 
-.recommendation__item {
-    background-color: #e7dcff;
-}
-
 .recommendation__container {
     display: flex;
     max-width: 1200px;
-    justify-content: space-between;
-
+    justify-content: center;
+    gap: 20px;
     align-items: center; /* Центрує по вертикалі */
     margin: 20px auto;
   }
   
   .recommendation__item {
-    text-align: center; /* Центрує текст всередині блоку */
+    background-color: #e7dcff;
+    height: 55vh;
+    width: 49%;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .recommendation__item img {
