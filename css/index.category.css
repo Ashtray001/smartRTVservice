@@ -1,12 +1,107 @@
-.splide__track {
-    height: 80vh;
+.splide {
     max-width: 1200px;
-    margin: 20px auto;
     display: flex;
     justify-content: center;
-    justify-items: center;
     align-items: center;
     text-align: center;
     margin: 25px auto;
     padding: 30px 40px;
+    height:90vh;
+  }
+.advantage__background {
+    background-color: #353e48;
 }
+.advantages__container {
+    max-width: 1200px;
+    margin: 30px auto; 
+  
+  .advantage__list {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+  }
+  
+  .advantage__list-text {
+    padding: 10px 20px; 
+    text-align: center; 
+    flex: 1; 
+    margin: 0 10px;
+    color: #ccc; 
+  }
+}
+
+.advantage {
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 0 10px;
+}
+
+.advantage__line {
+    max-width: 1200px; 
+    margin: 20px auto; 
+    border: none; 
+    border-top: 1px solid #ccc; 
+}
+
+.product__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr auto;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    height: 100%; 
+    
+  
+  
+  .product__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px; 
+    margin: 0 10px;
+    flex-direction: column;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+  }
+  
+  .product__item img {
+    width: 80px;
+    height: 80px;
+  }
+}
+.product-item__category {
+    list-style-type: none; 
+}
+.product-item__category a {
+    text-decoration: none; 
+     color: #333; 
+}
+
+
+.recommendation__item {
+    background-color: #e7dcff;
+}
+
+.recommendation__container {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+
+    align-items: center; /* Центрує по вертикалі */
+    margin: 20px auto;
+  }
+  
+  .recommendation__item {
+    text-align: center; /* Центрує текст всередині блоку */
+  }
+  
+  .recommendation__item img {
+    width: 50px; /* Ширина картинки */
+    height: 70px; /* Висота картинки */
+  }
