@@ -97,13 +97,34 @@
     background-color: #e7dcff;
     height: 55vh;
     width: 49%;
-    text-align: center; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 30px 40px;
+  }
+  .recommendation__text {
+    text-align: left;
   }
   
   .recommendation__item img {
-    width: 50px; /* Ширина картинки */
-    height: 70px; /* Висота картинки */
+    width: 100px; /* Ширина картинки */
+    height: 140px; /* Висота картинки */
+    margin-left: auto;
   }
+
+  .recommendation__button {
+    width: 150px;
+    background-color: #666666;
+    color: #FFF;
+    padding: 5px;
+  }
+
+.recommendation__item-1 {
+  background-color: #bcf3cb;
+    height: 55vh;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
