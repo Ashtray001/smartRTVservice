@@ -8,6 +8,7 @@
     padding: 30px 40px;
     height:90vh;
   }
+
 .advantage__background {
     background-color: #353e48;
 }
@@ -41,12 +42,7 @@
     padding: 0 10px;
 }
 
-.advantage__line {
-    max-width: 1200px; 
-    margin: 20px auto; 
-    border: none; 
-    border-top: 1px solid #ccc; 
-}
+
 
 .product__container {
     display: grid;
