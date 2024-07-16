@@ -1,14 +1,14 @@
 .footer__background {
-    background-color: #353e48;
-    padding: 15px;
+  background-color: #353e48;
+  padding: 15px;
 }
 
 .footer-list-email__container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .footer-list-email__item form {
@@ -22,11 +22,10 @@
   padding: 10px; /* Внутрішній відступ */
   font-size: 16px; /* Розмір шрифту */
   border: 1px solid #ccc; /* Рамка */
- 
 }
 
 .footer-list-email__item input[type="submit"] {
-  background-color: #4CAF50; /* Колір кнопки */
+  background-color: #4caf50; /* Колір кнопки */
   color: white; /* Колір тексту */
   border: none; /* Видаляємо рамку */
   margin-left: -1px; /* Виправляємо відступ між кнопкою і полем вводу */
@@ -37,6 +36,28 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  
 }
-  
+
+.footer-info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Це для того, щоб текст і посилання внутрішніх елементів були вирівняні зліва */
+}
+
+.footer-info__social {
+  margin-top: 10px; /* Відступ від робочого часу до іконок соціальних мереж */
+}
+
+.footer-info__working-time {
+  display: flex;
+  align-items: center; /* Вирівнювання по вертикалі */
+}
+
+.footer-info__working-time img {
+  margin-right: 10px; /* Відступ від іконки до тексту */
+}
+
+.working-time__text {
+  display: flex;
+  flex-direction: column; /* Відображати параграфи в колонці */
+}
