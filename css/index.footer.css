@@ -11,6 +11,9 @@
   justify-content: space-between;
 }
 
+.footer-list__text-item{
+  color: #dbdbdb;
+}
 .footer-list-email__item form {
   display: flex;
   align-items: stretch; /* Всі діти flex-контейнера розтягнуться по висоті */
@@ -44,8 +47,10 @@
   align-items: flex-start; /* Це для того, щоб текст і посилання внутрішніх елементів були вирівняні зліва */
 }
 
-.footer-info__social {
-  margin-top: 10px; /* Відступ від робочого часу до іконок соціальних мереж */
+.footer-info__list {
+  text-decoration: none;
+  color: #cbcfd4;
+  margin-bottom: 5px;
 }
 
 .footer-info__working-time {
@@ -60,4 +65,11 @@
 .working-time__text {
   display: flex;
   flex-direction: column; /* Відображати параграфи в колонці */
+  color: #cbcfd4;
+}
+
+.footer-info__social-icons img {
+  width: 22px;
+  height: 25px;
+  margin: 10px 7px 0 0;
 }
