@@ -19,131 +19,138 @@
     ></script>
   </head>
   <body>
-    <header>
+    <div class="return__container" style="background-color: #f2f3f5">
+      <header>
+        <div class="return__header">
+          <nav
+            data-hx-trigger="load"
+            data-hx-swap="outerHTML"
+            data-hx-get="index.header.partial.html"
+          ></nav>
+        </div>
+      </header>
       <div class="return__header">
+        <div class="return__menu">
+          <p class="return__menu-link">
+            <a class="return__menu-home" href="index.html"
+              ><img
+                class="return"
+                src="img/icons-product/home-icon.png"
+                alt="image logo home"
+                width="30px"
+                height="20px" /></a
+            ><span> > </span>
+            Умови повернення та обміну
+          </p>
+        </div>
+        <div class="return__information">
+          <h2 class="return__title">Умови повернення та обміну</h2>
+        </div>
+      </div>
+      <section class="return-policy" id="return">
+        <div class="return__description">
+          <p class="return__description-text">
+            Компанія здійснює повернення і обмін товарів належної якості згідно
+            Закону
+            <a
+              href="https://zakon.rada.gov.ua/laws/show/1023-12#Text"
+              class="return__low"
+              >"Про захист прав споживачів"</a
+            >
+          </p>
+          <h3>Строки повернення і обміну</h3>
+          <p>
+            Повернення та обмін товарів можливий протягом
+            <span class="return__special">14 днів</span> після отримання товару
+            покупцем.
+          </p>
+          <p>
+            <span class="return__special">Зворотня доставка товарів </span
+            >здійснюється за рахунок покупця.
+          </p>
+          <h3 class="return__subtitle">
+            Умови повернення для товарів належної якості
+          </h3>
+          <div class="return__description-note">
+            <p>
+              Строки повернення і обміну Повернення та обмін товарів можливий
+              протягом 14 днів після отримання товару покупцем.
+            </p>
+            <p>Зворотня доставка товарів здійснюється за рахунок покупця.</p>
+          </div>
+          <div class="return__accept">
+            <p>Умови повернення для товарів належної якості.</p>
+            <p>Гарантія на весь асортимент товару складає від 14 днів.</p>
+            <p>Поверненню не підлягають:</p>
+            <div class="return__acceptable-point">
+              <p>- Товар немає слідів пошкодження;</p>
+              <p>
+                - Якщо товар в заводській упаковці, то вона повинна бути не
+                пошкоджена;
+              </p>
+              <p>
+                - Якщо на платі чи товарі будуть пошкоджені або відсутні пломби,
+                або гарантійні наклейки;
+              </p>
+              <p>
+                - Якщо на платі є сліди пайки чи іншого механічного втручання;
+              </p>
+              <p>- Товар який має сліди використання.</p>
+            </div>
+          </div>
+          <div class="unacceptable">
+            <p>Не будуть прийняті наступні повернення:</p>
+            <div class="return__unacceptable-point">
+              <p>- оформлені післяплатою;</p>
+              <p>- без повного опису дефекту, причин повернення;</p>
+              <p>
+                - оформлені на одержувача з некоректними даними (помилковий
+                телефон, адреса, ПІБ та інше);
+              </p>
+              <p>- не узгодженні повернення;</p>
+              <p>- без гарантійних пломб.</p>
+            </div>
+          </div>
+          <div class="return__exception">
+            <p>Що робити, якщо "справа не у цьому блоці/платі/модулі":</p>
+            <div class="return__exception-point">
+              <p>
+                1. Зв'язатись з нами для уточнення що саме і чому не підійшло;
+              </p>
+              <p>
+                2. Якщо "справа не у цьому блоці/платі/модулі" то ми утримуємо
+                комісію в 20% від ціни, + пересилка за кошт клієнта.
+              </p>
+            </div>
+            <div class="return__exception-note">
+              <p>
+                Відповідно закону
+                <a
+                  href="https://zakon.rada.gov.ua/laws/show/1023-12#Text"
+                  class="return__low"
+                  >"Про захист прав споживачів"</a
+                >, компанія може відмовити споживачеві в обміні та поверненні
+                товарів належної якості, якщо вони відносяться до категорій,
+                зазначених у чинному
+                <a
+                  href="https://zakon.rada.gov.ua/laws/show/172-94-%D0%BF#Text"
+                  class="return__low"
+                >
+                  Переліку непродовольчих товарів належної якості, що не
+                  підлягають поверненню та обміну</a
+                >.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
         <nav
           data-hx-trigger="load"
           data-hx-swap="outerHTML"
-          data-hx-get="index.header.partial.html"
+          data-hx-get="index.footer.partial.html"
         ></nav>
-    </header>
-    <section class="return-policy" id="return">
-      <div class="return__menu">
-        <p class="return__menu-link">
-          <a class="return__menu-home" href="index.html"
-            ><img
-              class="return"
-              src="img/icons-product/home-icon.png"
-              alt="image logo home"
-              width="30px"
-              height="20px"
-          /></a>
-          > Умови повернення та обміну
-        </p>
-      </div>
-      <div class="return__information">
-        <h2 class="return__title">Умови повернення та обміну</h2>
-      </div>
-      <div class="return__description">
-        <p>
-          Компанія здійснює повернення і обмін товарів належної якості згідно
-          Закону
-          <a
-            href="https://zakon.rada.gov.ua/laws/show/1023-12#Text"
-            class="return__low"
-            >"Про захист прав споживачів»</a
-          >
-        </p>
-        <h3>Строки повернення і обміну</h3>
-        <p>
-          Повернення та обмін товарів можливий протягом
-          <span class="return__special">14 днів</span> після отримання товару
-          покупцем.
-        </p>
-        <p>
-          <span class="return__special">Зворотня доставка товарів </span
-          >здійснюється за рахунок покупця.
-        </p>
-        <h3 class="return__subtitle">
-          Умови повернення для товарів належної якості
-        </h3>
-        <p>
-          Строки повернення і обміну Повернення та обмін товарів можливий
-          протягом 14 днів після отримання товару покупцем.
-        </p>
-        <p>Зворотня доставка товарів здійснюється за рахунок покупця.</p>
-        <div class="return__accept">
-          <p>Умови повернення для товарів належної якості.</p>
-          <p>Гарантія на весь асортимент товару складає від 14 днів.</p>
-          <p>Поверненню не підлягають:</p>
-          <ul class="return__acceptable-point">
-            <li>- Товар немає слідів пошкодження;</li>
-            <li>
-              - Якщо товар в заводській упаковці, то вона повинна бути не
-              пошкоджена;
-            </li>
-            <li>
-              - Якщо на платі чи товарі будуть пошкоджені або відсутні пломби,
-              або гарантійні наклейки;
-            </li>
-            <li>
-              - Якщо на платі є сліди пайки чи іншого механічного втручання;
-            </li>
-            <li>- Товар який має сліди використання.</li>
-          </ul>
-        </div>
-        <div class="unacceptable">
-          <p>Не будуть прийняті наступні повернення:</p>
-          <ul class="return__unacceptable-point">
-            <li>- оформлені післяплатою;</li>
-            <li>- без повного опису дефекту, причин повернення;</li>
-            <li>
-              - оформлені на одержувача з некоректними даними (помилковий
-              телефон, адреса, ПІБ та інше);
-            </li>
-            <li>- не узгодженні повернення;</li>
-            <li>- без гарантійних пломб.</li>
-          </ul>
-        </div>
-        <div class="return__exception">
-          <p>Що робити якщо "справа не у цьому блоці/платі/модулі":</p>
-          <ol class="return__exception-point">
-            <li>
-              1. Зв'язатись з нами для уточнення що саме і чому не підійшло;
-            </li>
-            <li>
-              2. Якщо "справа не у цьому блоці/платі/модулі" то ми утримуємо
-              комісію в 20% від ціни, + пересилка за кошт клієнта.
-            </li>
-          </ol>
-          <div class="return__exception-note">
-            <p>
-              Відповідно закону
-              <a
-                href="https://zakon.rada.gov.ua/laws/show/1023-12#Text"
-                class="return__low"
-                >"Про захист прав споживачів»</a
-              >, компанія може відмовити споживачеві в обміні та поверненні
-              товарів належної якості, якщо вони відносяться до категорій,
-              зазначених у чинному
-              <a
-                href="https://zakon.rada.gov.ua/laws/show/172-94-%D0%BF#Text"
-                class="return__low"
-              >
-                Переліку непродовольчих товарів належної якості, що не
-                підлягають поверненню та обміну.</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <nav
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="index.footer.partial.html"
-      ></nav>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
