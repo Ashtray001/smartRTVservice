@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Умови повернення та обміну</title>
+    <link
+      rel="shortcut icon"
+      href="img/smart-rtv-service-logo.webp"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" href="img/icon-title.png" type="image/png" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="delivery__container" style="background-color: #f2f3f5">
+      <header>
+        <nav
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="index.header.partial.html"
+        ></nav>
+      </header>
+      <div class="delivery__header">
+        <div class="delivery__menu">
+          <p class="delivery__menu-link">
+            <a class="delivery__menu-home" href="index.html"
+              ><img
+                class="delivery"
+                src="img/icons-product/home-icon.png"
+                alt="image logo home"
+                width="30px"
+                height="20px" /></a
+            ><span> > </span>
+            Методи доставки
+          </p>
+        </div>
+        <div class="delivery__information">
+          <h3>Способи оплати та доставки</h3>
+        </div>
+      </div>
+      <section class="delivery-methods">
+        <div class="delivery__methods">
+          <p class="delivery__title">Способи доставки:</p>
+          <ul class="method-delivery">
+            <li>Нова Пошта;</li>
+            <li>Самовивіз;</li>
+            <li>Доставка кур'єром.</li>
+            <p class="method__note">
+              Доставка по україні Кур'єром служби Нова пошта
+            </p>
+          </ul>
+        </div>
+        <div class="payment__methods">
+            <p class="delivery__title">Способи оплати:</p>
+            <ul class="
+            .">
+              <li>Оплата за реквізитами;</li>
+              <p class="method__note">
+                Переказ коштів на картку Приват Банку <span class="delivery__special">5168757329670113</span> Шубін Юрій Петрович</p>
+              <li>Самовивіз;</li>
+              <li>Доставка кур'єром.</li>
+            </ul>
+          </div>
+      </section>
+      <footer>
+        <nav
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="index.footer.partial.html"
+        ></nav>
+      </footer>
+    </div>
+  </body>
+</html>
